@@ -1,0 +1,103 @@
+/* 全局样式 */
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-header {
+  padding: 0 20px;
+  background: #ccd5de;
+}
+
+.app-title {
+  color: white;
+  font-size: 20px;
+  line-height: 64px;
+}
+
+.app-content {
+  padding: 20px;
+}
+
+.app-footer {
+  text-align: center;
+  background: #f0f2f5;
+}
+
+/* 标签页卡片样式 */
+.tab-card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* 上传区域样式 */
+.ant-upload-drag-icon {
+  font-size: 48px;
+  color: #1890ff;
+}
+
+.ant-upload-text {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.ant-upload-hint {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.upload-container {
+  margin-top: 16px;
+}
+
+/* 输入方法按钮组 */
+.input-method-buttons {
+  margin-bottom: 16px;
+}
+
+/* 患者信息卡片样式 */
+.info-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.info-row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.info-label {
+  font-weight: bold;
+  min-width: 80px;
+}
+
+.info-value {
+  flex: 1;
+}
+
+/* 治疗建议卡片样式 */
+.recommendation-card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-section {
+  margin-bottom: 16px;
+}
+
+.disclaimer {
+  font-size: 12px;
+  display: block;
+  margin-top: 8px;
+}
+
+/* 响应式布局适配 */
+@media (max-width: 576px) {
+  .app-content {
+    padding: 10px;
+  }
+  
+  .info-row {
+    flex-direction: column;
+  }
+  
+  .info-label {
+    margin-bottom: 4px;
+  }
+}

@@ -1,0 +1,57 @@
+/* 上传组件样式 */
+.ant-upload-drag-icon {
+  font-size: 48px;
+  color: #1890ff;
+}
+
+.ant-upload-text {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.ant-upload-hint {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+/* 卡片样式 */
+.ant-card {
+  margin-bottom: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* 生物标志物列表 */
+.biomarker-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.biomarker-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* 进度条样式 */
+.ant-progress {
+  margin-bottom: 20px;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .ant-card-body {
+    padding: 16px;
+  }
+  
+  .ant-tabs-tab {
+    padding: 8px 12px;
+  }
+}
