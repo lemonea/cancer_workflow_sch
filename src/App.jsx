@@ -9,7 +9,7 @@ const { Dragger } = Upload;
 const { TextArea } = Input;
 
 // 开启测试模式 - 在API调用失败时使用测试数据
-const TEST_MODE = true;
+const TEST_MODE = false;
 
 // API URL
 const API_URL = "https://api.link-ai.tech/v1/chat/completions";
